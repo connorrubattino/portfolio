@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* element selector */
+body{
+background-color: rgb(207, 225, 232);
+color: whitesmoke;
+}
+
+nav {
+    background-color: black;
+    padding: 10px;
+    display: flex;
+}
+
+nav a{
+    color: salmon;
+    text-decoration: none;
+}
+
+nav ul{
+    list-style-type: none;
+    padding-top: .1%;
+}
+
+nav li{
+    display: inline;
+    margin: 10px;
+}
+
+/* messing with main */
+
+h1,h2,h3,h4,h5,h6 {
+    color:goldenrod;
+}
+
+main {
+    display: flex;
+}
+
+/* id selector == # */
+
+#main-articles {
+    width: 70%;
+    background-color: dimgray;
+    border: 1px solid red;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+}
+
+/* class selector == .classname */
+
+.image-fit {
+    width: 100%;
+    height: auto;
+}
+
+#side-bar {
+    width: 30%;
+    border: 1px solid black;
+    background: linear-gradient(rgb(0,45,255,.2),rgb(255,0,0,.7));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+#prof-pic {
+    width: 75%;
+    border: 3px solid rgb(247, 243, 243);
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+article p::first-letter {
+    font-variant: small-caps;
+    font-size: x-large;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: aqua;
+    padding: 20px;
+}
+
+.grey-bg {
+    background: linear-gradient(rgb(0,0,0,.5),rgb(0,0,0,.5));
+    margin-bottom: 50px;
+    padding: 25px;
+    border: 4px double goldenrod;
+    border-radius: 20px;
+}
+
+textarea , input {
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 25px;
+    background-color: bisque; 
+    width: 50%;
+}
+
+input::placeholder , textarea::placeholder {
+    color: rgb(179, 29, 29);
+}
+
+button {
+    background-color: goldenrod;
+    border-radius: 10px;
+    width: 80%;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+button:hover {
+    background-color: darkred;
+    color: whitesmoke;
+    border-color: goldenrod;
+}
+

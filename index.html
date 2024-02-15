@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initieal-scale=1.0" />
+    <title>Connor R Portfolio</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h3>Connor's Website</h3>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="#">About Me</a></li>
+          <li><a href="#">Contact Me</a></li>
+          <li><a href="https://github.com/connorrubattino">My Github</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div id="main-articles">
+        <article>
+          <h2>Who am I?</h2>
+          <img
+            class="image-fit"
+            src="./be743-16428609685565-1920.avif"
+            alt="headshot of Connor"
+          />
+          <p>
+            Hey there! I love sports from golf to basketball! Starting out as a
+            student at coding Dojo and my mission is to become a coding master
+            by the end of this in HTML, CSS, and Python. Ready to dive in and
+            unlock the world of programming magic... Lets go!
+          </p>
+        </article>
+        <article>
+          <h2>My Happy Place (or close to it)</h2>
+          <img
+            class="image-fit"
+            src="./unnamed.jpg"
+            alt="Torrey Pines Golf Course on the San Diego Coast just near my house"
+          />
+          <p>
+            I love to golf. Torry Pines is a great golf course just about 10
+            minutes up the coast from me and it is always a blast to go out
+            there and go low!
+          </p>
+        </article>
+      </div>
+      <div id="side-bar">
+        <article class=grey-bg>
+          <img id="prof-pic" src="./IMG_6543.jpg" alt="headshot of Connor" />
+          <h2>Connor Rubattino</h2>
+          San Diego <br />
+          It's always a party at the beach!
+        </article class=grey-bg>
+        <article class=grey-bg>
+          <h2>Contact Me</h2>
+          <form action="mailto:connor.rubattino@gmail.com" method="post">
+            <div>
+              <label for="name_field">Your Full Name</label>
+            </div>
+            <input
+              id="name_field"
+              name="name_field"
+              type="text"
+              placeholder="name"
+            />
+            <div>
+              <label for="email-field">Your Email</label>
+            </div>
+            <input
+              id="email-field"
+              name="email-field"
+              type="text"
+              placeholder="example@ex.com"
+            />
+            <div>
+              <label for="message-field"></label>
+            </div>
+            <textarea
+              id="message-field"
+              type="text"
+              rows="5"
+              placeholder="Write your ideas here"
+            ></textarea>
+            <div>
+              <button type="submit">Send Message</button>
+            </div>
+          </form>
+        </article class=grey-bg>
+      </div>
+    </main>
+    <footer>&copy;2024 Cruby12 Productions</footer>
+  </body>
+</html>
